@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+ Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+-->
+<action-definition id="de.hybris.platform.b2bcommerce.backoffice.actions.productDetails"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://www.hybris.com/schema/cockpitng/action-definition.xsd">
+	<name>Product Details</name>
+	<description>Action to get Product Details</description>
+	<author>hybris</author>
+	<version>1.0</version>
+	
+	<actionClassName>com.gpt.backoffice.actions.ProductDetailsAction</actionClassName>
+
+	
+    <inputType>de.hybris.platform.core.model.product.ProductModel</inputType>
+	<outputType>java.lang.Object</outputType>
+	
+    <iconUri>icons/icon.gif</iconUri>
+    <iconDisabledUri>icons/icon_confirm_pickup_disabled.png</iconDisabledUri>
+
+</action-definition>
